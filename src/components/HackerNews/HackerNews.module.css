@@ -24,9 +24,33 @@
 
 .search-sorters {
   padding: 0 10px;
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .stories-list {
-  padding: 0 10px;
+  padding: 10px;
+}
+
+.story {
+  margin-bottom: 10px;
+}
+
+.story h1 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 3px;
+}
+
+.story h1 a {
+  text-decoration: none;
+  color: #828282;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.story-info h4 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;
+  display: inline;
 }

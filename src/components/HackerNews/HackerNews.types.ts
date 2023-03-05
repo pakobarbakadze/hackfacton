@@ -1,13 +1,4 @@
-type Story = {
-  objectID: string;
-  url: string;
-  title: string;
-  author: string;
-  num_comments: number;
-  points: number;
-};
-
-type Stories = Story[];
+import { Story, Stories } from "../../types/Story.types";
 
 type StoriesListProps = {
   storiesList: Stories;
@@ -19,4 +10,12 @@ type SearchFormProps = {
   onSearchSubmit: (event: React.FormEvent<HTMLFormElement>) => void;
 };
 
-export type { Story, Stories, StoriesListProps, SearchFormProps };
+type SearchSortersProps = {
+  onSortSelect: (event: React.MouseEvent<HTMLElement>, key: string) => void;
+};
+
+type StoryProps = {
+  story: Story;
+};
+
+export type { StoriesListProps, SearchFormProps, StoryProps, SearchSortersProps };
