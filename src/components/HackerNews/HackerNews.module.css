@@ -1,0 +1,32 @@
+.container {
+  background-color: #f6f6ef;
+  width: 100%;
+}
+
+.search-form {
+  height: 60px;
+  background-color: #ff742b;
+  padding: 0 10px;
+}
+
+.search-form form {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-form input {
+  height: 70%;
+  width: 100%;
+  margin: 0 100px;
+}
+
+.search-sorters {
+  padding: 0 10px;
+  margin: 10px 0;
+}
+
+.stories-list {
+  padding: 0 10px;
+}
