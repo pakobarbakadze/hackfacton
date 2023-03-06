@@ -27,6 +27,16 @@
   margin-top: 10px;
 }
 
+.search-sorters button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.search-sorters #selected {
+  background-color: black;
+  color: white;
+}
+
 .stories-list {
   padding: 10px;
 }
@@ -53,4 +63,30 @@
   font-weight: 400;
   color: #828282;
   display: inline;
+}
+
+.pagination {
+  padding-bottom: 25px;
+}
+
+.pagination ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.pagination li {
+  list-style: none;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  line-height: 1.5;
+  text-align: center;
+  /* padding: 2px 6px; */
+  cursor: pointer;
+}
+
+.pagination ul #selected {
+  border: 1px solid #ff742b;
+  color: #ff742b;
 }
