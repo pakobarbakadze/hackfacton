@@ -24,7 +24,6 @@ const HackerNews = () => {
   };
 
   const handlePageSelect = (page: number) => {
-    console.log(page);
     setPagination({ currPage: page, pages: pagination.pages });
   };
 
@@ -46,11 +45,10 @@ const HackerNews = () => {
 
   //Fetcher function
   const handleFetchStories = useCallback(() => {
-    console.log(pagination);
     axios
       .get(`http://hn.algolia.com/api/v1/search?query=${searchTerm}&tags=story&page=${pagination.currPage}`)
       .then((res) => {
-        console.log(res);
+        //console.log(res);
         setStoriesList(res.data.hits);
         //setPagination({ currPage: pagination.currPage, pages: res.data.nbPages });
       })

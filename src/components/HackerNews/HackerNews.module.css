@@ -9,6 +9,10 @@
   padding: 0 10px;
 }
 
+.search-form h1 {
+  font-size: 32px;
+}
+
 .search-form form {
   height: 100%;
   display: flex;
@@ -19,7 +23,7 @@
 .search-form input {
   height: 70%;
   width: 100%;
-  margin: 0 100px;
+  margin: 0 6%;
 }
 
 .search-sorters {
@@ -49,6 +53,7 @@
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 3px;
+  max-width: 100%;
 }
 
 .story h1 a {
