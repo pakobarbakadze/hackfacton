@@ -46,7 +46,7 @@ const HackerNews = () => {
   //Fetcher function
   const handleFetchStories = useCallback(() => {
     axios
-      .get(`http://hn.algolia.com/api/v1/search?query=${searchTerm}&tags=story&page=${pagination.currPage}`)
+      .get(`https://hn.algolia.com/api/v1/search?query=${searchTerm}&tags=story&page=${pagination.currPage}`)
       .then((res) => {
         //console.log(res);
         setStoriesList(res.data.hits);
