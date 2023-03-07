@@ -47,19 +47,19 @@
 
 .story {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .story h1 {
   font-size: 1.2rem;
   font-weight: 400;
-  margin-bottom: 3px;
-  max-width: 100%;
+  margin: 0 0 3px;
 }
 
 .story h1 a {
   text-decoration: none;
   color: #828282;
-  margin-left: 10px;
+  margin: 0 0 0 10px;
   font-size: 1rem;
 }
 
